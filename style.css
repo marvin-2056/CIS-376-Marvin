@@ -1,11 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto&family=Tilt+Prism&display=swap');
 
 body {
-  background-image: url('data:image/svg+xml,%3Csvg width="52" height="26" viewBox="0 0 52 26" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z" /%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+  background-image: url('https://img.freepik.com/free-vector/3d-style-black-background-with-paper-layer_206725-669.jpg?size=626&ext=jpg');
 }
 
 h1 {
   font-family: 'Lato', sans-serif;
+  color: aliceblue;
+}
+
+p2 {
+  color: aliceblue;
+
+
+
+}
+
+p1 {
+  color: aliceblue;
+
 }
 
 img{
@@ -36,18 +49,14 @@ img:hover {
 }
 
 
-
-.rotate {
-  animation: rotation 8s infinite linear;
+#img {
+  width: 200px;
+  height: 200px;
+  animation: colorChange 1s infinite alternate; /* Apply the animation */
 }
 
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
+@keyframes colorChange {
+  0% { filter: hue-rotate(0deg); } /* Start with no hue rotation */
+  100% { filter: hue-rotate(360deg); } /* Rotate through all hues */
 }
-
 

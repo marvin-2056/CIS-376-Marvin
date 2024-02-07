@@ -52,11 +52,11 @@ img:hover {
 #img {
   width: 200px;
   height: 200px;
-  animation: colorChange 1s infinite alternate; /* Apply the animation */
+  animation: colorChange 1s infinite alternate; 
 }
 
 @keyframes colorChange {
-  0% { filter: hue-rotate(0deg); } /* Start with no hue rotation */
-  100% { filter: hue-rotate(360deg); } /* Rotate through all hues */
+  0% { filter: hue-rotate(0deg); } 
+  100% { filter: hue-rotate(360deg); } 
 }
 

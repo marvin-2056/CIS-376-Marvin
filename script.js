@@ -27,6 +27,7 @@ $(document).ready(function(){
   
   $("img").on('click', function(){
       var text = "YAY you win i'd give you a cookie but I'm too lazy to add that in, anyway click the button to restart!"; 
+      console.log("you clicked the img");
       var displayText = $("<p1>").text(text); 
       $("body").append(displayText);
       $('img').stop(); 
